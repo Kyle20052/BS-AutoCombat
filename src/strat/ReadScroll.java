@@ -12,8 +12,8 @@ import org.rev377.min.api.wrappers.Item;
 
 public class ReadScroll implements Strategy {
 
-    private static final int SCROLL_ID[] = { 2775, 2774 };
-    private static int[] i;
+    private final int SCROLL_ID[] = { 2775, 2774 };
+    private int[] i;
 
     @Override
     public boolean activate() {

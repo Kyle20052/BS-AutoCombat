@@ -11,8 +11,8 @@ import org.rev377.min.api.wrappers.Item;
 
 public class Eat implements Strategy {
 
-    private static final int FOOD_ID[] = { 386 };
-    private long lastTime = 0;
+    private final int FOOD_ID[] = { 386 };
+    private long lastTime;
 
     @Override
     public boolean activate() {

@@ -14,8 +14,8 @@ import org.rev377.min.api.wrappers.Player;
 
 public class Attack implements Strategy {
 
-    private static final int MONSTER_ID[] = { 1265, 1153, 84, 6221, 6278, 2455,
-	    15462, 1615, 4418 };
+    private final int MONSTER_ID[] = { 1265, 1153, 84, 6221, 6278, 2455, 15462,
+	    1615, 4418 };
 
     /*
      * Can handle multiple npc ID

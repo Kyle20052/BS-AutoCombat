@@ -39,9 +39,3 @@ public class Drink implements Strategy {
     }
 
 }
-
-/*
- * 
- * ID: 3031 Stack: 1 Slot: 0 ID: 3029 Stack: 1 Slot: 1 ID: 3027 Stack: 1 Slot: 2
- * ID: 3025 Stack: 1 Slot: 3
- */

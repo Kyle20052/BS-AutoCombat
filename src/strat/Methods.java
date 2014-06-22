@@ -1,11 +1,11 @@
+/**
+ * Made by: TGrunt
+ * Copyright (c) Jun 18, 2014
+ */
 package strat;
 
 import org.rev377.min.api.methods.Menu;
 import org.rev377.min.api.wrappers.Player;
-
-/**
- * Made by: TGrunt Copyright (c) Jun 13, 2014
- */
 
 public class Methods {
 

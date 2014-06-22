@@ -1,3 +1,7 @@
+/**
+ * Made by: TGrunt
+ * Copyright (c) Jun 18, 2014
+ */
 import java.util.ArrayList;
 
 import org.parabot.environment.scripts.Category;
@@ -5,9 +9,6 @@ import org.parabot.environment.scripts.Script;
 import org.parabot.environment.scripts.ScriptManifest;
 import org.parabot.environment.scripts.framework.Strategy;
 
-/**
- * Made by: TGrunt Copyright (c) Jun 13, 2014
- */
 @ScriptManifest(author = "TGrunt", category = Category.COMBAT, description = "Fights anything - anywhere", name = "AutoCombat", servers = { "BattleScape Parabot & SingleCore 0.1 11" }, version = 1)
 public class Main extends Script {
 

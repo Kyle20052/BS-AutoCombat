@@ -1,3 +1,7 @@
+/**
+ * Made by: TGrunt
+ * Copyright (c) Jun 18, 2014
+ */
 package strat;
 
 import org.parabot.environment.scripts.framework.Strategy;

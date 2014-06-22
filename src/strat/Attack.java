@@ -14,7 +14,7 @@ import org.rev377.min.api.wrappers.Player;
 
 public class Attack implements Strategy {
 
-    public static final int MONSTER_ID[] = { 1265, 1153, 84, 6221, 6278, 2455,
+    private static final int MONSTER_ID[] = { 1265, 1153, 84, 6221, 6278, 2455,
 	    15462, 1615, 4418 };
 
     /*

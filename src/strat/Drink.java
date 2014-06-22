@@ -11,8 +11,7 @@ import org.rev377.min.api.wrappers.Item;
 public class Drink implements Strategy {
 
     private static final int POTION_ID[] = { 3031, 3029, 3027, 3025 };
-
-    private static long lastTime = 0;
+    private long lastTime = 0;
 
     @Override
     public boolean activate() {

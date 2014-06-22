@@ -6,13 +6,14 @@ import org.rev377.min.api.methods.Players;
 import org.rev377.min.api.wrappers.Item;
 
 public class Eat implements Strategy {
-    private static int foodID[] = { 386 };
-    private static long lastTime = 0;
+
+    private static final int FOOD_ID[] = { 386 };
+    private long lastTime = 0;
 
     @Override
     public boolean activate() {
 	return Methods.isLowHealth(Players.getMyPlayer())
-		&& Inventory.getCount(foodID) > 0
+		&& Inventory.getCount(FOOD_ID) > 0
 		&& System.currentTimeMillis() - lastTime > 5000;
     }
 
@@ -29,7 +30,7 @@ public class Eat implements Strategy {
     }
 
     public Item getNext() {
-	for (int id : foodID)
+	for (int id : FOOD_ID)
 	    for (Item i : Inventory.getItems())
 		if (i.getId() == id)
 		    return i;

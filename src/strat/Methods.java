@@ -10,10 +10,9 @@ import org.rev377.min.api.wrappers.Player;
 public class Methods {
 
     public static boolean isLowHealth(Player p) {
-	if (p.getHealth() < p.getMaxHealth() / 3)
-	    return true;
-	return false;
+	return p.getHealth() < p.getMaxHealth() / 3;
     }
+
     public static void interactInventory(int id, int slot) {
 	Menu.sendAction(961, id - 1, slot, 4521985);
     }
